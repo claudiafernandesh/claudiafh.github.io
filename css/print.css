@@ -1,0 +1,136 @@
+* {
+  color:black;
+  background:transparent;
+  font-size: 12pt;
+  font-family: serif;
+  }
+
+@page {
+  margin:0.5in;
+}
+
+header {
+   position: relative;
+   height: 75pt;
+   min-height: 75pt;
+   width: 100%;
+   background: white;
+   text-align: center;
+   overflow: hidden;
+}
+
+header h1 {
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 32pt;
+}
+
+header h2 {
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15pt;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 12pt;
+  color: #222;
+}
+
+#container {
+  margin: 2em auto;
+  width: 720pt;
+}
+
+nav ul {
+  display:none;
+}
+
+
+
+#content {
+  width:450pt;
+
+}
+
+section {
+  border-top: 0.75pt solid #000;
+}
+
+section h3 {
+  float: left;
+  width: 25%;
+  color: #a0bcdf;
+}
+
+
+article#um {
+  margin: 1.35em 0;
+  margin-left: 26%;
+}
+
+article#school {
+  margin: 1.35em 0;
+  margin-left: 26%;
+}
+article#art {
+  margin: 1.35em 0;
+  margin-left: 19%;
+}
+
+article#art ul li{
+  list-style: none;
+}
+
+article#awards{
+  margin: 1.35em 0;
+  margin-left: 20%;
+}
+
+article#awards ul li{
+  list-style: circle;
+}
+
+article h4,
+article p {
+  margin: 7.5pt;
+}
+
+#things {
+  width:720pt;
+}
+#skills p {
+  position: relative;
+  height: 75pt;
+  display: inline-block;
+  padding-top: 1em;
+}
+
+#skills img {
+  border: 0.75pt solid #ccc;
+  padding: 2.25pt;
+  margin: 0.75pt;
+  width: 37.5pt;
+  height: 37.5pt;
+  float: left;
+  -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
+
+}
+
+aside{
+  float:right;
+  border: 0.75pt solid #333;
+  margin: 1em;
+  padding: 1em;
+  width: 177pt;
+  text-align: right;
+  clear:left;
+}
+
+
+
+footer{
+  display: none;
+}
